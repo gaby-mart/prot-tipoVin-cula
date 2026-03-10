@@ -5,13 +5,23 @@
 }
 
 header{
+    font-family: 'Times New Roman', Times, serif;
     background-color: #330000;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 60px;
 }
 
+body{
+    background-color: rgb(219, 202, 181);
+}
+
 .header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-center{
     display: flex;
     align-items: center;
 }
@@ -29,7 +39,6 @@ header{
     width: 100px;
     font-size: 15px;
     cursor: pointer;
-    margin: 2%;
 }
 
 .homeButton:hover{
@@ -44,6 +53,12 @@ header{
     border-radius: 25px;
     width: 100px;
     font-size: 15px;
+     cursor: pointer;
+}
+
+.loginButton:hover{
+    background-color: white;
+    color: #330000;
 }
 
 .cartButton{
@@ -52,4 +67,44 @@ header{
     border: none;
     font-size: 16px;
     cursor: pointer;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.buttonProduct{
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 100px;
+    font-size: 15px;
+}
+
+.buttonSobre{
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 100px;
+    font-size: 15px;
+}
+
+.magnifyingButton{
+    padding: 10%;
+    background-color: white;
+    border-color:white;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.magnifyingButton:hover{
+    background-color: transparent;
+    color: #330000;
+}
+
+
+.askProduct{
+    background-color: white;
+       border-radius: 10px; 
+       width: 450px;
+       height: 30px;
 }
