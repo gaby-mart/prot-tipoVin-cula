@@ -1,110 +1,149 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #330000;
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 body{
-    background-color: rgb(219, 202, 181);
+    background: linear-gradient(to right, rgb(235, 195, 144), #5c0202, rgb(15, 1, 1));
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
-.header-left{
-    display: flex;
-    align-items: center;
+
+header{
+background-color:hwb(0 2% 65%);
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:10px 30px;
+height:60px;
 }
 
-.header-center{
-    display: flex;
-    align-items: center;
-}
-
+.header-left,
+.header-center,
 .header-right{
-    display: flex;
-    align-items: center;
+display:flex;
+align-items:center;
 }
+
 
 .homeButton{
-    background-color:transparent;
-    color: white;
-    border-color: white;
-    border-radius: 25px;
-    width: 100px;
-    font-size: 15px;
-    cursor: pointer;
+background-color:transparent;
+color:white;
+border:2px solid white;
+border-radius:25px;
+width:100px;
+font-size:15px;
+cursor:pointer;
 }
 
 .homeButton:hover{
-    background-color: white;
-    color: #330000;
+background-color:white;
+color:#330000;
 }
 
 .loginButton{
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
-    border-radius: 25px;
-    width: 100px;
-    font-size: 15px;
-     cursor: pointer;
+background-color:transparent;
+color:white;
+border:2px solid white;
+border-radius:25px;
+width:100px;
+font-size:15px;
+cursor:pointer;
 }
 
 .loginButton:hover{
-    background-color: white;
-    color: #330000;
+background-color:white;
+color:#330000;
 }
+
+.buttonProduct,
+.buttonSobre{
+background-color:transparent;
+border:none;
+color:white;
+width:100px;
+font-size:15px;
+cursor:pointer;
+}
+
 
 .cartButton{
-    background-color: transparent;
-    color: white;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.buttonProduct{
-    background-color: transparent;
-    border: none;
-    color: white;
-    width: 100px;
-    font-size: 15px;
-}
-
-.buttonSobre{
-    background-color: transparent;
-    border: none;
-    color: white;
-    width: 100px;
-    font-size: 15px;
-}
-
-.magnifyingButton{
-    padding: 10%;
-    background-color: white;
-    border-color:white;
-    height: 30px;
-    width: 30px;
-    border-radius: 5px;
-}
-
-.magnifyingButton:hover{
-    background-color: transparent;
-    color: #330000;
+background-color:transparent;
+border:none;
+cursor:pointer;
+padding:0 10px;
 }
 
 
 .askProduct{
-    background-color: white;
-       border-radius: 10px; 
-       width: 450px;
-       height: 30px;
+background-color:white;
+border-radius:10px;
+width:350px;
+height:30px;
+padding-left:10px;
+border:none;
+margin-right:10px;
+}
+
+.magnifyingButton{
+background-color:white;
+border:none;
+height:30px;
+width:30px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.magnifyingButton:hover{
+background-color:#ddd;
+}
+
+
+#home{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:80px;
+}
+
+
+.title{
+font-size:4rem;
+color:#330000;
+}
+
+.title span{
+color:#8b0000;
+}
+
+.description{
+margin-top:20px;
+font-size:23px;
+max-width:500px;
+}
+
+#cta_buttons{
+margin-top:30px;
+}
+
+.btn-default{
+background-color:#500f0f;
+color:white;
+padding:10px 20px;
+border-radius:20px;
+text-decoration:none;
+border:none;
+cursor:pointer;
+margin-right:10px;
+}
+
+.btn-default:hover{
+background-color:#5e0000;
+}
+
+#banner img{
+width:500px;
+box-shadow: 0px 10px 80px rgba(16, 6, 6, 0.7);
 }

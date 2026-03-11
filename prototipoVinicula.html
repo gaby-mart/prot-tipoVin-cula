@@ -1,34 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<i class="bi bi-search"></i>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nome do Projeto</title>
+    <title>Loja de Vinhos</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
+<body>
+
 <header>
+
     <div class="header-left">
-        <button class="homeButton">Home</button>
-        <button class="buttonProduct">Produtos</button>
-        <button class="buttonSobre">Sobre</button>
+        <button class="homeButton"><a href="#"></a>Home</button>
+        <button class="buttonProduct"><a href="#"></a>Produtos</button>
+        <button class="buttonSobre"><a href=""></a>Sobre</button>
     </div>
 
     <div class="header-center">
-                <input type="text" class="askProduct">
-                           <label>
-                <button class="magnifyingButton">
-                    <img src="imagens/lupa.svg">
-                </button>
-            </label>
+        <input type="text" class="askProduct" placeholder="Buscar vinho...">
+
+        <button class="magnifyingButton">
+            <i class="fa-solid fa-search"></i>
+        </button>
     </div>
 
     <div class="header-right">
-    <button class="loginButton">Login</button>
-    <button class="cartButton"><img src = "imagens/carrinhoCompras.png" width="30px"></button>
+        <button class="loginButton">Login</button>
+
+        <button class="cartButton">
+            <img src="imagens/carrinhoCompras.png" width="30">
+        </button>
     </div>
+
 </header>
-<body>  
+
+<main id="content">
+
+    <section id="home">
+        <div id="cta">
+            <h1 class="title">
+            O verdadeiro sabor do <br> <span>vinho</span>
+            </h1>
+        <p class="description">
+            Descubra vinhos selecionados com qualidade premium.
+            Sabores únicos para momentos especiais.
+        </p>
+        <div id="cta_buttons">
+            <a href="produtos.html" class="btn-default">
+                Ver produtos
+            </a>
+            <a href="tel:+5519982861171" id="phone_button">
+                <button class="btn-default">
+                    <i class="fa-solid fa-phone"></i>
+                    (19) 99999-9999
+                </button>
+            </a>
+        </div>
+    </div>
+    <div id="banner">
+        <img src="img/befede19-6c44-4191-85a7-0f9ab4f2e57e.png" alt="vinho">
+
+    </div>
+</section>
+
+</main>
+<footer>
+    <h3>Exemplo</h3>
+</footer>
+
 </body>
 </html>
