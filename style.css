@@ -5,7 +5,11 @@ box-sizing:border-box;
 }
 
 body{
-    background: linear-gradient(to right, rgb(235, 195, 144), #5c0202, rgb(15, 1, 1));
+    background-image: url(img/2970646a-50a4-4a2c-abda-00efdd4a2f58.jpeg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     font-family: 'Times New Roman', Times, serif;
 
 }
@@ -111,17 +115,23 @@ padding:80px;
 
 .title{
 font-size:4rem;
-color:#330000;
+color:#065d09;
+-webkit-text-stroke: 1px rgb(173, 158, 158);
 }
 
 .title span{
-color:#8b0000;
+font-size: 6rem;
+color:#660909;
+-webkit-text-stroke: 1px rgb(47, 3, 3);
+
 }
 
 .description{
 margin-top:20px;
-font-size:23px;
+font-size:28px;
 max-width:500px;
+color: #ddd;
+-webkit-text-stroke: 1px white;
 }
 
 #cta_buttons{
@@ -143,7 +153,3 @@ margin-right:10px;
 background-color:#5e0000;
 }
 
-#banner img{
-width:500px;
-box-shadow: 0px 10px 80px rgba(16, 6, 6, 0.7);
-}
